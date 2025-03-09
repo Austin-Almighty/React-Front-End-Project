@@ -1,0 +1,63 @@
+/* 
+.noto-sans-<uniquifier> {
+    font-family: "Noto Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  } */
+   body {
+    margin:0;
+    overflow: hidden;
+    padding:0;
+    background-color: #131316;
+    color: white;
+   }
+
+  .nav-bar {
+    display: flex;
+    background-color: rgb(127, 255, 212, 0.2);
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 1rem;
+    font-family: "Noto Sans";
+    font-weight: 700;
+    font-size: 2rem;
+    height: 3rem;
+  }
+
+
+  .nav-bar ul {
+    display: flex;
+    justify-content:space-evenly;
+    width:25rem;
+    font-size: 1rem;
+    align-items:end;
+  }
+
+  main {
+    max-width: 680px;
+  }
+
+  #main-title {
+    display: flex;
+    /* text-align:start; */
+    font-family: "Noto Sans";
+    font-size: 5rem;
+    font-weight: 700;
+    flex-wrap:wrap;
+    margin: 0 1rem;
+  }
+
+
+  #author-section {
+    position: relative;
+    left: 10rem;
+  }
+
+  #author {
+    display:flex;
+    /* text-align: center; */
+  }
+
